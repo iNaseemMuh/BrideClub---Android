@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frag2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Contract bridge, or simply bridge, is a trick-taking card game using a standard 52-card deck. In its basic format, it is played by four players in two competing partnerships, with partners sitting opposite each other around a table. Millions of people play bridge worldwide in clubs, tournaments, online and with friends at home, making it one of the world's most popular card games, particularly among seniors. The World Bridge Federation (WBF) is the governing body for international competitive bridge, with numerous other bodies governing bridge at the regional level. "
+        android:textSize="18sp" />
+
+</FrameLayout>

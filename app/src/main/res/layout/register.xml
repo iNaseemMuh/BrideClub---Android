@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Create a new account"
+        android:textSize="35dp"
+        android:id="@+id/BridgeApp"
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="13dp"
+        android:hint="Username"
+        android:layout_gravity="center"
+        android:id="@+id/Username"
+
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="7dp"
+        android:hint="Password"
+        android:layout_gravity="center"
+        android:id="@+id/Password"
+        android:inputType="textPassword"
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="7dp"
+        android:hint="First Name"
+        android:layout_gravity="center"
+        android:id="@+id/FirstName"
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="7dp"
+        android:hint="Last Name"
+        android:layout_gravity="center"
+        android:id="@+id/LastName"
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="7dp"
+        android:layout_gravity="center"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:id="@+id/Email"
+    />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="7dp"
+        android:layout_gravity="center"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:id="@+id/Phone"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:text="Register"
+        android:id="@+id/Register"
+        android:drawableLeft="@drawable/ic_baseline_login_24" />
+
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Already have an account?"
+        android:textSize="25dp"
+        android:id="@+id/RegisterText"
+        />
+    <Button
+    android:layout_width="80dp"
+    android:layout_height="40dp"
+    android:layout_marginTop="8dp"
+    android:layout_gravity="center"
+    android:text="Login"
+    android:id="@+id/regLogin"
+    />
+</LinearLayout>
